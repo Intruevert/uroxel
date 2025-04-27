@@ -651,8 +651,16 @@ span.green {
 }
 .dpack {
   background: url(../images/pack.png) no-repeat center top;
-  padding-top: 320px;
+  padding-top: 20vh; /* Змінено на відсоток від висоти вікна перегляду */
   background-size: contain;
+  min-height: 200px; /* Додано мінімальну висоту */
+  background-size: contain;
+}
+@media (max-width: 767px) {
+  .dpack {
+    padding-top: 1rem; /* Зменшено відступ на мобільних */
+    min-height: 150px; /* Зменшено мінімальну висоту на мобільних */
+  }
 }
 .fpack {
   background: url(../images/packs.png) no-repeat center top;
@@ -735,6 +743,7 @@ span.green {
   margin-left: 29px;
 }
 .magnet .neces {
+  display: block;
   float: right;
 }
 .magnet .obt .example {
@@ -787,7 +796,7 @@ input {
   margin-bottom: 2px;
 }
 a.y_button {
-  display: inline-block;
+  display: block;
   padding-left: 40px;
   padding-right: 40px;
   float: right;
@@ -1377,6 +1386,7 @@ button {
 button,
 input[type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
   cursor: pointer;
 }
 button::-moz-focus-inner,
