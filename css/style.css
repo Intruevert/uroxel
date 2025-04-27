@@ -473,13 +473,13 @@ h4 {
   padding-top: 237px;
 }
 .incont_1 {
-  background: url(images/incont_1.jpg) no-repeat center top;
+  background: url(../images/incont_1.jpg) no-repeat center top;
 }
 .incont_2 {
-  background: url(images/incont_2.jpg) no-repeat center 76px;
+  background: url(../images/incont_2.jpg) no-repeat center 76px;
 }
 .incont_3 {
-  background: url(images/incont_3.jpg) no-repeat center 51px;
+  background: url(../images/incont_3.jpg) no-repeat center 51px;
 }
 .fav {
   font-size: 14px;
@@ -578,7 +578,7 @@ span.green {
   padding: 20px 0 0 89px;
 }
 .section_1 li {
-  background: url(images/yep.png) no-repeat left 2px;
+  background: url(../images/yep.png) no-repeat left 2px;
   line-height: 22px;
   padding: 0 0 20px 34px;
 }
@@ -590,7 +590,7 @@ span.green {
   display: block;
 }
 .pin {
-  background: url(images/pin.png) no-repeat left top;
+  background: url(../images/pin.png) no-repeat left top;
   color: #241c18;
 }
 .section_2 {
@@ -638,24 +638,24 @@ span.green {
   font-style: italic;
 }
 .pict_1 {
-  background: url(images/pict_1.png) no-repeat center top;
+  background: url(../images/pict_1.png) no-repeat center top;
 }
 .pict_2 {
-  background: url(images/pict_2.png) no-repeat center top;
+  background: url(../images/pict_2.png) no-repeat center top;
 }
 .pict_3 {
-  background: url(images/pict_3.png) no-repeat center top;
+  background: url(../images/pict_3.png) no-repeat center top;
 }
 .pict_4 {
-  background: url(images/pict_4.png) no-repeat center top;
+  background: url(../images/pict_4.png) no-repeat center top;
 }
 .dpack {
-  background: url(images/pack.png) no-repeat center top;
+  background: url(../images/pack.png) no-repeat center top;
   padding-top: 320px;
   background-size: contain;
 }
 .fpack {
-  background: url(images/packs.png) no-repeat center top;
+  background: url(../images/packs.png) no-repeat center top;
   min-height: 339px;
   background-size: auto;
 }
@@ -670,13 +670,13 @@ span.green {
   left: -1.5rem;
 }
 .section_4 li {
-  background: url(images/yep.png) no-repeat left 5px;
+  background: url(../images/yep.png) no-repeat left 5px;
   background-size: 13px 10px;
   padding-left: 23px;
   padding-right: 29px;
 }
 .decoration {
-  background: url(images/dec.png) no-repeat left top;
+  background: url(../images/dec.png) no-repeat left top;
   height: 56px;
 }
 .section_5 {
@@ -684,7 +684,7 @@ span.green {
 }
 .section_5-wrapper {
   max-width: 1200px;
-  background: #efefef url(images/wmn.png) no-repeat right 10px bottom;
+  background: #efefef url(../images/wmn.png) no-repeat right 10px bottom;
   padding: 48px 0 40px 0;
   margin: 0 auto;
 }
@@ -703,7 +703,7 @@ span.green {
   z-index: 1;
 }
 .mpack {
-  background: url(images/mpacks.jpg) no-repeat left top;
+  background: url(../images/mpacks.jpg) no-repeat left top;
 }
 .fillsec .value {
   margin-top: 0px;
@@ -735,7 +735,6 @@ span.green {
   margin-left: 29px;
 }
 .magnet .neces {
-  display: block;
   float: right;
 }
 .magnet .obt .example {
@@ -788,7 +787,7 @@ input {
   margin-bottom: 2px;
 }
 a.y_button {
-  display: block;
+  display: inline-block;
   padding-left: 40px;
   padding-right: 40px;
   float: right;
@@ -827,13 +826,13 @@ a.y_button {
     padding: 26px 0 30px 0;
   }
   .mpack {
-    background: url(images/mpacks.jpg) no-repeat left center;
+    background: url(../images/mpacks.jpg) no-repeat left center;
     background-size: 70%;
   }
 }
 @media only screen and (max-width: 991px) {
   .mpack {
-    background: url(images/mpacks.jpg) no-repeat left -70px center;
+    background: url(../images/mpacks.jpg) no-repeat left -70px center;
     background-size: 70%;
   }
   .section_6 {
@@ -886,7 +885,7 @@ a.y_button {
     padding-right: 0;
   }
   .fpack {
-    background: url(images/pack.png) no-repeat center top;
+    background: url(../images/pack.png) no-repeat center top;
     min-height: 276px;
     background-size: auto 285px;
     margin-left: 12%;
@@ -933,7 +932,7 @@ a.y_button {
     padding: 22px 0 0 0;
   }
   .section_5-wrapper {
-    background: url(images/wmn.png) no-repeat 145% bottom #efefef;
+    background: url(../images/wmn.png) no-repeat 145% bottom #efefef;
     background-position: 115% bottom;
     background-size: 60%;
     padding: 15px 0;
@@ -989,7 +988,7 @@ a.y_button {
     background-color: #fff;
   }
   .mpack {
-    background: url(images/mpack.png) no-repeat center top;
+    background: url(../images/mpack.png) no-repeat center top;
     background-size: 375px;
   }
   .section_6 .white {
@@ -1277,7 +1276,7 @@ a.y_button {
     font-size: 15px;
   }
   .fpack {
-    background: url(images/packs.png) no-repeat center top;
+    background: url(../images/packs.png) no-repeat center top;
     min-height: 320px;
   }
   .section_1 .row.around-xs {
@@ -1378,7 +1377,6 @@ button {
 button,
 input[type="submit"] {
   -webkit-appearance: button;
-  appearance: button;
   cursor: pointer;
 }
 button::-moz-focus-inner,
@@ -1440,7 +1438,7 @@ hr {
 [class*="op_"],
 .psec > span:before,
 .instr_list li:after {
-  background: url(images/hotfooter-sprite.png) no-repeat;
+  background: url(../images/hotfooter-sprite.png) no-repeat;
   display: inline-block;
   vertical-align: top;
 }
